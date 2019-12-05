@@ -1,4 +1,8 @@
 # Converting-a-model
+The screenshot is that of the terminal that is how i converted the keras_model using Tensorflowjs converter.
+The load_model.js is the javascript file for loading the model in an html document(index.html)
+
+#Deference between tfjs layers model and tfjs graph model
 The difference between tfjs layers model and tfjs graph model is that tfjs layers supports both inference and training while tfjs graphs models support only inference
 
 <h3>What is <strong>Inference</strong>?</h3>
