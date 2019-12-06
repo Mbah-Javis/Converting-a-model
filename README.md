@@ -8,7 +8,6 @@ The load_model.js is the javascript file for loading the model in an html docume
 1. Converting to tfjs_layers_model
 <code>tensorflow_converter --input_format=keras keras_medel.h5 tfjs_layers_model</code>
 2. Converting to tfjs_graph_model
-  <monospace></monospace>
 <code>tensorflow_converter --input_format=keras keras_medel.h5 tfjs_graph_model</code>
 
 # Deference between tfjs layers model and tfjs graph model
