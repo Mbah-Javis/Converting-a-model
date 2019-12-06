@@ -3,7 +3,7 @@ The screenshot is that of the terminal that is how i converted the keras_model u
 The load_model.js is the javascript file for loading the model in an html document(index.html). This is the 
 [link](https://github.com/Mbah-Javis/Fashion-mnist-with-Keras/blob/master/Fashion%20Mnist%20with%20keras%20.ipynb) to where the model was trained
 <p>
-<strong>How to convert the keras_model.h5</strong>
+<h3><strong>How to convert the keras_model.h5</strong></h3>
   <monospace></monospace>
 1. Converting to tfjs_layers_model
   <monospace></monospace>
