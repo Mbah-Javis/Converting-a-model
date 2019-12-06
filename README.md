@@ -3,9 +3,9 @@ The screenshot is that of the terminal that is how i converted the keras_model u
 The load_model.js is the javascript file for loading the model in an html document(index.html)
 <strong>How to convert the keras_model.h5</strong>
 1. Converting to tfjs_layers_model
-<monospace>tensorflow_converter --input_format=keras keras_medel.h5 tfjs_layers_model</monospace>
+<code>tensorflow_converter --input_format=keras keras_medel.h5 tfjs_layers_model</code>
 2. Converting to tfjs_graph_model
-<monospace>tensorflow_converter --input_format=keras keras_medel.h5 tfjs_graph_model</monospace>
+<code>tensorflow_converter --input_format=keras keras_medel.h5 tfjs_graph_model</code>
 
 # Deference between tfjs layers model and tfjs graph model
 The difference between tfjs layers model and tfjs graph model is that tfjs layers supports both inference and training while tfjs graphs models support only inference
